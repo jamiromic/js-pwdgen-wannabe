@@ -11,7 +11,7 @@ let myColor = prompt('Il tuo colore preferito?');
 // Assegnazione nome Variabile inline
 
 // Con questo comando inserisce un numero Random
-const myNumber = Math.random( );
+const myNumber = Math.round(Math.random() * 100);
 
 console.log (myName + mySurname + myColor)
 
